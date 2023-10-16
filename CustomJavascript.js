@@ -2,7 +2,7 @@ jQuery(document).ready(function () {
   /*..*/
   fixCF7MultiSubmit();
 });
-Â
+
 function fixCF7MultiSubmit() {
   jQuery('input.wpcf7-submit[type="submit"]').click(function () {
     jQuery(this).css("display", "none");
